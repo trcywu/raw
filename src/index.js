@@ -15,7 +15,7 @@ import { Provider } from 'react-redux';
 import { Router, Route, IndexRoute} from 'react-router';
 
 /////////////////////////////////////////////////////////////////////////
-// browserHistory would be preferred over hashHistory, but browserHistory 
+// browserHistory would be preferred over hashHistory, but browserHistory
 // would require configuring the server. So we will use hashHistory here.
 // Please change to browserHistory if you have your own backend server.
 // import {browserHistory as history} from 'react-router';
@@ -35,6 +35,7 @@ import UsersPage from './containers/user/UsersPage';
 import ReposPage from './containers/repo/ReposPage';
 import About from './containers/about/About';
 import NotFound from './containers/misc/NotFound';
+import Reduxtagram from './containers/reduxtagram/Reduxtagram';
 
 import './index.css';
 
@@ -47,6 +48,7 @@ ReactDOM.render(
         <Route path="/" component={App}>
           <IndexRoute component={Home}/>
           <Route path="/about" component={About}/>
+          <Route path="/reduxtagram" component={Reduxtagram} />
           <Route path="/login" component={Login}/>
           <Route component={RestrictPage}>
             <Route path="/users" component={UsersPage} />

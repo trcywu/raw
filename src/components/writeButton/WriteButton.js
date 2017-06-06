@@ -5,14 +5,10 @@ import './writeButton.css';
 export default class WriteButton extends Component {
   render() {
 
-    function hello() {
-      alert ('hello');
-    }
-
 
     return (
       <div>
-      <button className='write-button' onClick={hello}>
+      <button className='write-button' onClick={this.props.onClick}>
         {this.props.buttonName}
       </button>
       </div>
