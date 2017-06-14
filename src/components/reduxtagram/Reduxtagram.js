@@ -5,7 +5,7 @@ export default class Reduxtagram extends Components {
   render() {
     return (
       <div>
-        <p>Building Reduxtagram</p>
+        Hello world 
       </div>
     );
     }

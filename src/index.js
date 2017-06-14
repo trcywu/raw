@@ -36,6 +36,7 @@ import ReposPage from './containers/repo/ReposPage';
 import About from './containers/about/About';
 import NotFound from './containers/misc/NotFound';
 import Reduxtagram from './containers/reduxtagram/Reduxtagram';
+import Contact from './containers/contact/Contact';
 
 import './index.css';
 
@@ -48,6 +49,7 @@ ReactDOM.render(
         <Route path="/" component={App}>
           <IndexRoute component={Home}/>
           <Route path="/about" component={About}/>
+          <Route path="/contact" component={Contact}/>
           <Route path="/reduxtagram" component={Reduxtagram} />
           <Route path="/login" component={Login}/>
           <Route component={RestrictPage}>

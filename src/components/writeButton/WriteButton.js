@@ -8,7 +8,7 @@ export default class WriteButton extends Component {
 
     return (
       <div>
-      <button className='write-button' onClick={this.props.onClick}>
+      <button className='write-button' onClick={this.props.onClick} onMouseOver={this.props.onMouseOver}>
         {this.props.buttonName}
       </button>
       </div>

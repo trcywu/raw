@@ -55,9 +55,9 @@ export default class About extends Component {
       <div className="BodiumCastle">
         {this.state.bodiumCastleShowing ? <BodiumCastle /> : null}
       </div>
-        <WriteButton buttonName="Show FruitLoop" onClick={this.showFruitLoop}/>
+        <WriteButton buttonName="Show FruitLoop" onMouseOver={this.showFruitLoop}/>
 
-        <div onMouseOut={this.showFruitLoop}>
+        <div>
           {this.state.fruitLoopShowing ? <FruitLoop /> : null}
         </div>
       </div>

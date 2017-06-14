@@ -38,6 +38,7 @@ export default class Header extends Component {
                 <li title="Github Repos with over 10000 Stars" className={isReposPage ? 'nav-item active' : 'nav-item'}><Link className="nav-link" to="/repos">Most Starred Repos</Link></li>
                 <li title="About" className={isAboutPage ? 'nav-item active' : 'nav-item'}><Link className="nav-link" to="/about">About Us</Link></li>
                 <Link className="nav-link" to="/reduxtagram">Reduxtagram</Link>
+                <Link className="nav-link" to="/contact">Contact</Link>
               </ul>
 
               <ul className="nav navbar-nav float-right">

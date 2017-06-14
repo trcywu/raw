@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import WriteButton from '../../components/writeButton/WriteButton';
 
 
-export default class Reduxtagram extends Component {
+export default class PhotoGrid extends Component {
   render() {
     return (
 
