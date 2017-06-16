@@ -1,5 +1,6 @@
 import React from 'react';
 import WriteButton from '../../components/writeButton/WriteButton';
+import DataGrid from '../../components/dataGrid/DataGrid';
 
 //this is a stateless component that is just returning some html
 
@@ -14,6 +15,10 @@ const Contact = () => {
         <br />
         <WriteButton buttonName='submit' />
       </form>
+
+      <DataGrid />
+
+
     </div>
 
   )

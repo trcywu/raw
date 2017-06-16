@@ -59,6 +59,7 @@
     "react": "^15.4.0",
     "react-addons-shallow-compare": "15.4.0",
     "react-data-grid": "^2.0.48",
+    "react-data-grid-addons": "^2.0.48",
     "react-dom": "^15.4.2",
     "react-google-login": "^2.7.1",
     "react-redux": "^4.4.6",
